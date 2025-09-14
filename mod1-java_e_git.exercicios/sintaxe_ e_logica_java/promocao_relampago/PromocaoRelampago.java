@@ -9,7 +9,7 @@ public class PromocaoRelampago {
         System.out.println(calcularDesconto(valorCompra));
         scanner.close();
     }
-
+ 
     public static String calcularDesconto(String valorCompra) {
         BigDecimal valor = new BigDecimal(valorCompra);
         BigDecimal descontoPercentual;
