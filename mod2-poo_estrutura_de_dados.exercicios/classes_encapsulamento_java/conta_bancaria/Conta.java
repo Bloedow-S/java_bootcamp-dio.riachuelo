@@ -5,6 +5,7 @@ public class Conta {
     private final Cliente cliente;
     private double saldo;
     private double cheque_especial = 0;
+    private double saldo_cheque_especial = 0;
 
 
     Conta(Cliente cliente, double saldo) {
@@ -36,4 +37,7 @@ public class Conta {
         return this.cheque_especial;
     }
 
+    public void setSaldo_cheque_especial(double saldo_cheque_especial) { this.saldo_cheque_especial = saldo_cheque_especial; }
+
+    public double getSaldo_cheque_especial() { return this.saldo_cheque_especial; }
 }

@@ -10,8 +10,7 @@ public class Identificator {
     private Random range = new Random();
     private final int num = range.nextInt(500);
 
-    Identificator(){
-    }
+    Identificator() {}
 
     public int getId() {
         return this.num;
