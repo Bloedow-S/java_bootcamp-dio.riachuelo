@@ -1,5 +1,5 @@
 
-### Petshop - Java
+### Exercício: Petshop (Java)
 
 Escreva um código onde temos o controle de banho de um petshop, a maquina de banhos dos pets deve ter as seguintes operações:
 - Dar banho no pet;
@@ -20,3 +20,4 @@ Regras de negócio:
 - Se o pet for retirado da maquina sem estar limpo será necessário limpar a máquina para permitir a entrada de outro pet;
 - A limpeza da máquina ira consumir 3 litros de água e 1 litro de shampoo;
 - O abastecimento de água e shampoo deve permitir 2 litros por vez que for acionado;
+
